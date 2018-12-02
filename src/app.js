@@ -7,7 +7,7 @@
 const express = require('express'),
     app = express();
 
-require('./routes')(app);
 require('./middlewares')(app);
+require('./routes')(app);
 
 exports = module.exports = app;
