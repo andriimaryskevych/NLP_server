@@ -1,0 +1,1694 @@
+[
+    {
+        "id": 2322,
+        "title": "Abarth",
+        "transport": 1,
+        "slug": "abarth",
+        "logo": "https://cdn-th1.ab.ua/image/f8b690e5b01d4ab392ec04603fd88401/img/classifiers/Abarth-logo.png",
+        "combined_value": "1_2322_abarth_Abarth",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 1,
+        "title": "AC",
+        "transport": 1,
+        "slug": "ac",
+        "logo": "https://cdn-th1.ab.ua/image/a56df8a9c02042af8b9212b299ea1a1c/img/classifiers/AC-logo.png",
+        "combined_value": "1_1_ac_AC",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 2,
+        "title": "Acura",
+        "transport": 1,
+        "slug": "acura",
+        "logo": "https://cdn-th1.ab.ua/image/cd19351dffcf4302b9b0a53026c0d981/img/classifiers/Acura-logo.png",
+        "combined_value": "1_2_acura_Acura",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 3,
+        "title": "Alfa Romeo",
+        "transport": 1,
+        "slug": "alfa-romeo",
+        "logo": "https://cdn-th1.ab.ua/image/e94346f65c5a422ca8ba2c7fae0eac9d/img/classifiers/Alfa-Romeo-logo.png",
+        "combined_value": "1_3_alfa-romeo_Alfa Romeo",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 160,
+        "title": "Alpine",
+        "transport": 1,
+        "slug": "alpine",
+        "logo": "https://cdn-th1.ab.ua/image/da8615ef7b39452fa7c76266db9e11ed/img/classifiers/Alpine-logo.png",
+        "combined_value": "1_160_alpine_Alpine",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 5,
+        "title": "Aro",
+        "transport": 1,
+        "slug": "aro",
+        "logo": "https://cdn-th1.ab.ua/image/91361c97a8704342b122f48ec5a54d1f/img/classifiers/ARO-logo.png",
+        "combined_value": "1_5_aro_Aro",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 6,
+        "title": "Asia",
+        "transport": 1,
+        "slug": "asia",
+        "logo": "https://cdn-th1.ab.ua/image/2995a1d206e34966bef527a370fbe27a/img/classifiers/Asia-logo.png",
+        "combined_value": "1_6_asia_Asia",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 7,
+        "title": "Aston Martin",
+        "transport": 1,
+        "slug": "aston-martin",
+        "logo": "https://cdn-th1.ab.ua/image/3ca6cba3f72b4250977db72a1e4ec952/img/classifiers/Aston-Martin-logo.png",
+        "combined_value": "1_7_aston-martin_Aston Martin",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 8,
+        "title": "Audi",
+        "transport": 1,
+        "slug": "audi",
+        "logo": "https://cdn-th1.ab.ua/image/9dfc06867a2547c28ce0e4ea70718c8d/img/classifiers/audi.png",
+        "combined_value": "1_8_audi_Audi",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 11404,
+        "title": "Aurus",
+        "transport": 1,
+        "slug": null,
+        "logo": null,
+        "combined_value": "1_11404__Aurus",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 9,
+        "title": "Austin",
+        "transport": 1,
+        "slug": "austin",
+        "logo": "https://cdn-th1.ab.ua/image/ad668b8bbeb3483cbf7eb00e2d7378c4/img/classifiers/Austin-logo.png",
+        "combined_value": "1_9_austin_Austin",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 140,
+        "title": "BAW",
+        "transport": 1,
+        "slug": "baw",
+        "logo": null,
+        "combined_value": "1_140_baw_BAW",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 10,
+        "title": "Bentley",
+        "transport": 1,
+        "slug": "bentley",
+        "logo": "https://cdn-th1.ab.ua/image/c96e8dcb1b8b490d827155eb43e5362f/img/classifiers/Bentley-logo.png",
+        "combined_value": "1_10_bentley_Bentley",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 2452,
+        "title": "BIO AUTO",
+        "transport": 1,
+        "slug": "bio-auto",
+        "logo": null,
+        "combined_value": "1_2452_bio-auto_BIO AUTO",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 11,
+        "title": "BMW",
+        "transport": 1,
+        "slug": "bmw",
+        "logo": "https://cdn-th1.ab.ua/image/b9b1373c2f3342bfaefbd0dd022595a7/img/classifiers/BMW-logo.png",
+        "combined_value": "1_11_bmw_BMW",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 133,
+        "title": "BMW Alpina",
+        "transport": 1,
+        "slug": "bmw-alpina",
+        "logo": "https://cdn-th1.ab.ua/image/62b4c16ab00d415a956ccadf89352210/img/classifiers/Alpina-logo.png",
+        "combined_value": "1_133_bmw-alpina_BMW Alpina",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 137,
+        "title": "Borgward",
+        "transport": 1,
+        "slug": "borgward",
+        "logo": "https://cdn-th1.ab.ua/image/1b4febf3285a47458d0c57acab22c189/img/classifiers/Borgward-logo.png",
+        "combined_value": "1_137_borgward_Borgward",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 12,
+        "title": "Brilliance",
+        "transport": 1,
+        "slug": "brilliance",
+        "logo": "https://cdn-th1.ab.ua/image/2270292d07934a06be111cb15b187b61/img/classifiers/Brilliance-logo.png",
+        "combined_value": "1_12_brilliance_Brilliance",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 13,
+        "title": "Bristol",
+        "transport": 1,
+        "slug": "bristol",
+        "logo": "https://cdn-th1.ab.ua/image/b7311b142cba473d8ae7e12a1a6e271f/img/classifiers/Bristol-Cars-logo.png",
+        "combined_value": "1_13_bristol_Bristol",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 14,
+        "title": "Bugatti",
+        "transport": 1,
+        "slug": "bugatti",
+        "logo": "https://cdn-th1.ab.ua/image/16e5845fcc8d4225ae28e678871c5f92/img/classifiers/Bugatti-logo.png",
+        "combined_value": "1_14_bugatti_Bugatti",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 15,
+        "title": "Buick",
+        "transport": 1,
+        "slug": "buick",
+        "logo": "https://cdn-th1.ab.ua/image/4d55e74dea8d42c29944398a226c129b/img/classifiers/Buick-logo.png",
+        "combined_value": "1_15_buick_Buick",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 16,
+        "title": "BYD",
+        "transport": 1,
+        "slug": "byd",
+        "logo": "https://cdn-th1.ab.ua/image/acc2902030fc4cd99f3644c6b7e741ed/img/classifiers/BYD-logo.png",
+        "combined_value": "1_16_byd_BYD",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 17,
+        "title": "Cadillac",
+        "transport": 1,
+        "slug": "cadillac",
+        "logo": "https://cdn-th1.ab.ua/image/958a095c20064d12aced8652dfc60083/img/classifiers/Cadillac-logo.png",
+        "combined_value": "1_17_cadillac_Cadillac",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 161,
+        "title": "Callaway",
+        "transport": 1,
+        "slug": "callaway",
+        "logo": null,
+        "combined_value": "1_161_callaway_Callaway",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 162,
+        "title": "Carbodies",
+        "transport": 1,
+        "slug": "carbodies",
+        "logo": null,
+        "combined_value": "1_162_carbodies_Carbodies",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 18,
+        "title": "Caterham",
+        "transport": 1,
+        "slug": "caterham",
+        "logo": "https://cdn-th1.ab.ua/image/d7a08ddbbe6244f69fa3eecc1780782f/img/classifiers/Caterham-logo.png",
+        "combined_value": "1_18_caterham_Caterham",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 141,
+        "title": "Chana",
+        "transport": 1,
+        "slug": "chana",
+        "logo": null,
+        "combined_value": "1_141_chana_Chana",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 163,
+        "title": "Changan",
+        "transport": 1,
+        "slug": "changan",
+        "logo": "https://cdn-th1.ab.ua/image/2ed7d1f192ff43e8963b56bfa229e625/img/classifiers/Changan-logo.png",
+        "combined_value": "1_163_changan_Changan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 164,
+        "title": "ChangFeng",
+        "transport": 1,
+        "slug": "changfeng",
+        "logo": "https://cdn-th1.ab.ua/image/33e640cc6961464688ecefc371023cb6/img/classifiers/Changfeng-logo.png",
+        "combined_value": "1_164_changfeng_ChangFeng",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 142,
+        "title": "Changhe",
+        "transport": 1,
+        "slug": "changhe",
+        "logo": null,
+        "combined_value": "1_142_changhe_Changhe",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 19,
+        "title": "Chery",
+        "transport": 1,
+        "slug": "chery",
+        "logo": "https://cdn-th1.ab.ua/image/7f14ed844f2e4c128812cbd9985aa6ab/img/classifiers/Chery-logo.png",
+        "combined_value": "1_19_chery_Chery",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 20,
+        "title": "Chevrolet",
+        "transport": 1,
+        "slug": "chevrolet",
+        "logo": "https://cdn-th1.ab.ua/image/3492f364227d407da83dceeea8bef5b8/img/classifiers/Chevrolet-logo.png",
+        "combined_value": "1_20_chevrolet_Chevrolet",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 21,
+        "title": "Chrysler",
+        "transport": 1,
+        "slug": "chrysler",
+        "logo": "https://cdn-th1.ab.ua/image/a5bc0376b3c84c49a77297971d2bd1b6/img/classifiers/Chrysler-logo.png",
+        "combined_value": "1_21_chrysler_Chrysler",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 22,
+        "title": "Citroen",
+        "transport": 1,
+        "slug": "citroen",
+        "logo": "https://cdn-th1.ab.ua/image/a24cbd7616464a089b33dcbb430aabf2/img/classifiers/Citroen-logo-1.png",
+        "combined_value": "1_22_citroen_Citroёn",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 165,
+        "title": "Cizeta",
+        "transport": 1,
+        "slug": "cizeta",
+        "logo": "https://cdn-th1.ab.ua/image/77b452fa43e04eb0ae3e503920efa81b/img/classifiers/Cizeta-logo.png",
+        "combined_value": "1_165_cizeta_Cizeta",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 166,
+        "title": "Coggiola",
+        "transport": 1,
+        "slug": "coggiola",
+        "logo": null,
+        "combined_value": "1_166_coggiola_Coggiola",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 23,
+        "title": "Dacia",
+        "transport": 1,
+        "slug": "dacia",
+        "logo": "https://cdn-th1.ab.ua/image/eb7d7d1b61b94dce9f6aae2d79e31727/img/classifiers/Dacia-logo.png",
+        "combined_value": "1_23_dacia_Dacia",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 24,
+        "title": "Dadi",
+        "transport": 1,
+        "slug": "dadi",
+        "logo": null,
+        "combined_value": "1_24_dadi_Dadi",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 25,
+        "title": "Daewoo",
+        "transport": 1,
+        "slug": "daewoo",
+        "logo": "https://cdn-th1.ab.ua/image/1753067f20b44ddeaff0822c1f4f96cf/img/classifiers/Daewoo-logo.png",
+        "combined_value": "1_25_daewoo_Daewoo",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 26,
+        "title": "Daihatsu",
+        "transport": 1,
+        "slug": "daihatsu",
+        "logo": "https://cdn-th1.ab.ua/image/ab3b30536bf740c7ae2cedb63e570ada/img/classifiers/Daihatsu-logo.png",
+        "combined_value": "1_26_daihatsu_Daihatsu",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 27,
+        "title": "Daimler",
+        "transport": 1,
+        "slug": "daimler",
+        "logo": null,
+        "combined_value": "1_27_daimler_Daimler",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 167,
+        "title": "Dallas",
+        "transport": 1,
+        "slug": "dallas",
+        "logo": null,
+        "combined_value": "1_167_dallas_Dallas",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 28,
+        "title": "Datsun",
+        "transport": 1,
+        "slug": "datsun",
+        "logo": "https://cdn-th1.ab.ua/image/d39ab3657d884c1a820c09ef7bdff075/img/classifiers/Datsun-logo.png",
+        "combined_value": "1_28_datsun_Datsun",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 29,
+        "title": "Derways",
+        "transport": 1,
+        "slug": "derways",
+        "logo": null,
+        "combined_value": "1_29_derways_Derways",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 168,
+        "title": "De Tomaso",
+        "transport": 1,
+        "slug": "de-tomaso",
+        "logo": "https://cdn-th1.ab.ua/image/84b91b7ee39449cc8b2986c6e1b1db9e/img/classifiers/De-Tomaso-logo.png",
+        "combined_value": "1_168_de-tomaso_De Tomaso",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 11374,
+        "title": "Detroit Electric",
+        "transport": 1,
+        "slug": null,
+        "logo": null,
+        "combined_value": "1_11374__Detroit Electric",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 211,
+        "title": "DFSK",
+        "transport": 1,
+        "slug": "dfsk",
+        "logo": null,
+        "combined_value": "1_211_dfsk_DFSK",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 30,
+        "title": "Dodge",
+        "transport": 1,
+        "slug": "dodge",
+        "logo": "https://cdn-th1.ab.ua/image/c158519a823645f698cf6525aff70515/img/classifiers/Dodge-logo.png",
+        "combined_value": "1_30_dodge_Dodge",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 31,
+        "title": "DongFeng",
+        "transport": 1,
+        "slug": "dongfeng",
+        "logo": "https://cdn-th1.ab.ua/image/b445355868a7444abdeb46b720f39dd5/img/classifiers/Dongfeng-logo.png",
+        "combined_value": "1_31_dongfeng_DongFeng",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 170,
+        "title": "Doninvest",
+        "transport": 1,
+        "slug": "doninvest",
+        "logo": null,
+        "combined_value": "1_170_doninvest_Doninvest",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 134,
+        "title": "DS",
+        "transport": 1,
+        "slug": "ds",
+        "logo": "https://cdn-th1.ab.ua/image/982767c1f113424695d2e757a3505372/img/classifiers/DS-logo.png",
+        "combined_value": "1_134_ds_DS",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 32,
+        "title": "Eagle",
+        "transport": 1,
+        "slug": "eagle",
+        "logo": null,
+        "combined_value": "1_32_eagle_Eagle",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 33,
+        "title": "FAW",
+        "transport": 1,
+        "slug": "faw",
+        "logo": "https://cdn-th1.ab.ua/image/4e350e23dfdf4f9582104257370e9e20/img/classifiers/FAW-logo.png",
+        "combined_value": "1_33_faw_FAW",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 34,
+        "title": "Ferrari",
+        "transport": 1,
+        "slug": "ferrari",
+        "logo": "https://cdn-th1.ab.ua/image/d87c3ef1ba714b6a8caf1b1418f239fb/img/classifiers/Ferrari-logo.png",
+        "combined_value": "1_34_ferrari_Ferrari",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 35,
+        "title": "Fiat",
+        "transport": 1,
+        "slug": "fiat",
+        "logo": "https://cdn-th1.ab.ua/image/9cc4b2a8d6b64f188ceeb8f126dbc3f2/img/classifiers/Fiat-logo.png",
+        "combined_value": "1_35_fiat_Fiat",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 36,
+        "title": "Fisker",
+        "transport": 1,
+        "slug": "fisker",
+        "logo": "https://cdn-th1.ab.ua/image/ad483cb651de48b2ab2cbb7838c8964f/img/classifiers/Fisker-logo.png",
+        "combined_value": "1_36_fisker_Fisker",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 37,
+        "title": "Ford",
+        "transport": 1,
+        "slug": "ford",
+        "logo": "https://cdn-th1.ab.ua/image/dd227bda009c4b02ba53a732c9ad294c/img/classifiers/Ford-logo.png",
+        "combined_value": "1_37_ford_Ford",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 38,
+        "title": "Foton",
+        "transport": 1,
+        "slug": "foton",
+        "logo": "https://cdn-th1.ab.ua/image/41edcd9429a644faad295894cf500127/img/classifiers/Foton-logo.png",
+        "combined_value": "1_38_foton_Foton",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 39,
+        "title": "FSO",
+        "transport": 1,
+        "slug": "fso",
+        "logo": null,
+        "combined_value": "1_39_fso_FSO",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 40,
+        "title": "Fuqi",
+        "transport": 1,
+        "slug": "fuqi",
+        "logo": null,
+        "combined_value": "1_40_fuqi_Fuqi",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 213,
+        "title": "Gac Gonow",
+        "transport": 1,
+        "slug": "gac-gonow",
+        "logo": "https://cdn-th1.ab.ua/image/19563a1cac74400e952490b20484d6bd/img/classifiers/GAC-logo.png",
+        "combined_value": "1_213_gac-gonow_Gac Gonow",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 41,
+        "title": "Geely",
+        "transport": 1,
+        "slug": "geely",
+        "logo": "https://cdn-th1.ab.ua/image/90d293a81b3746618cbbc683b8062b16/img/classifiers/Geely-logo.png",
+        "combined_value": "1_41_geely_Geely",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 222,
+        "title": "Genesis",
+        "transport": 1,
+        "slug": "genesis",
+        "logo": "https://cdn-th1.ab.ua/image/b366043f8fbb447197c75364daf5e21c/img/classifiers/Genesis-logo.png",
+        "combined_value": "1_222_genesis_Genesis",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 42,
+        "title": "Geo",
+        "transport": 1,
+        "slug": "geo",
+        "logo": "https://cdn-th1.ab.ua/image/d8b0400a618e45faaddd5f290de3e0d8/img/classifiers/Geo-logo.png",
+        "combined_value": "1_42_geo_Geo",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 43,
+        "title": "GMC",
+        "transport": 1,
+        "slug": "gmc",
+        "logo": "https://cdn-th1.ab.ua/image/1803f06dfc9e4e58a8fefbe6a5324686/img/classifiers/GMC-logo.png",
+        "combined_value": "1_43_gmc_GMC",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 44,
+        "title": "Great Wall",
+        "transport": 1,
+        "slug": "great-wall",
+        "logo": "https://cdn-th1.ab.ua/image/57516315743445279e565b026e2b7ed7/img/classifiers/Great-Wall-logo.png",
+        "combined_value": "1_44_great-wall_Great Wall",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 45,
+        "title": "Hafei",
+        "transport": 1,
+        "slug": "hafei",
+        "logo": "https://cdn-th1.ab.ua/image/002508262afe4126b180f2f24c8274dc/img/classifiers/Hafei-logo.png",
+        "combined_value": "1_45_hafei_Hafei",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 46,
+        "title": "Haima",
+        "transport": 1,
+        "slug": "haima",
+        "logo": "https://cdn-th1.ab.ua/image/3b16135e30554d89bc846d821f344fad/img/classifiers/Haima-logo.png",
+        "combined_value": "1_46_haima_Haima",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 207,
+        "title": "Haval",
+        "transport": 1,
+        "slug": "haval",
+        "logo": "https://cdn-th1.ab.ua/image/e0e0e0dc510e44acab414a0c9b5112bb/img/classifiers/Haval-logo.png",
+        "combined_value": "1_207_haval_Haval",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 204,
+        "title": "Hawtai",
+        "transport": 1,
+        "slug": "hawtai",
+        "logo": "https://cdn-th1.ab.ua/image/87a292517852440e94bb5e7f4063a0fc/img/classifiers/Hawtai-logo.png",
+        "combined_value": "1_204_hawtai_Hawtai",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 47,
+        "title": "Hindustan",
+        "transport": 1,
+        "slug": "hindustan",
+        "logo": "https://cdn-th1.ab.ua/image/a596899c460d49e3836cc22662d71e2d/img/classifiers/Hindustan-Motors-logo.png",
+        "combined_value": "1_47_hindustan_Hindustan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 145,
+        "title": "HINO",
+        "transport": 1,
+        "slug": "hino",
+        "logo": "https://cdn-th1.ab.ua/image/ee8e50f1e1e24a55a5ce3037a4d1a82a/img/classifiers/Hino-logo.png",
+        "combined_value": "1_145_hino_HINO",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 48,
+        "title": "Holden",
+        "transport": 1,
+        "slug": "holden",
+        "logo": "https://cdn-th1.ab.ua/image/e552668733fe448ba649d8c99b6b66c0/img/classifiers/Holden-logo.png",
+        "combined_value": "1_48_holden_Holden",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 49,
+        "title": "Honda",
+        "transport": 1,
+        "slug": "honda",
+        "logo": "https://cdn-th1.ab.ua/image/31509ee375514a0aae72e9eb44bf63c6/img/classifiers/Honda-logo.png",
+        "combined_value": "1_49_honda_Honda",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 50,
+        "title": "HuangHai",
+        "transport": 1,
+        "slug": "huanghai",
+        "logo": null,
+        "combined_value": "1_50_huanghai_HuangHai",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 51,
+        "title": "Hummer",
+        "transport": 1,
+        "slug": "hummer",
+        "logo": "https://cdn-th1.ab.ua/image/57240222480d450b8121099f0cfefde8/img/classifiers/Hummer-logo.png",
+        "combined_value": "1_51_hummer_Hummer",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 52,
+        "title": "Hyundai",
+        "transport": 1,
+        "slug": "hyundai",
+        "logo": "https://cdn-th1.ab.ua/image/85382001ce594b3baa9db4f41f6edbee/img/classifiers/Hyundai-logo.png",
+        "combined_value": "1_52_hyundai_Hyundai",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 53,
+        "title": "Infiniti",
+        "transport": 1,
+        "slug": "infiniti",
+        "logo": "https://cdn-th1.ab.ua/image/576b9f5ff5274ecc9a0ff9f84d5ee690/img/classifiers/Infiniti-logo.png",
+        "combined_value": "1_53_infiniti_Infiniti",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 171,
+        "title": "Innocenti",
+        "transport": 1,
+        "slug": "innocenti",
+        "logo": "https://cdn-th1.ab.ua/image/131854db58674cdc94f9574276ca8812/img/classifiers/Innocenti-logo.png",
+        "combined_value": "1_171_innocenti_Innocenti",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 54,
+        "title": "Invicta",
+        "transport": 1,
+        "slug": "invicta",
+        "logo": null,
+        "combined_value": "1_54_invicta_Invicta",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 55,
+        "title": "Iran Khodro",
+        "transport": 1,
+        "slug": "iran-khodro",
+        "logo": "https://cdn-th1.ab.ua/image/e4043bfc8a0b4485b8f8f96ec170990d/img/classifiers/Iran-Khodro-logo.png",
+        "combined_value": "1_55_iran-khodro_Iran Khodro",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 172,
+        "title": "Isdera",
+        "transport": 1,
+        "slug": "isdera",
+        "logo": "https://cdn-th1.ab.ua/image/9cf1e38eeb46495899a8ab069dd463fe/img/classifiers/Isdera-logo.png",
+        "combined_value": "1_172_isdera_Isdera",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 56,
+        "title": "Isuzu",
+        "transport": 1,
+        "slug": "isuzu",
+        "logo": "https://cdn-th1.ab.ua/image/f3abc54644244e07bc5d9f5855610d6a/img/classifiers/Isuzu-logo.png",
+        "combined_value": "1_56_isuzu_Isuzu",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 57,
+        "title": "IVECO",
+        "transport": 1,
+        "slug": "iveco",
+        "logo": "https://cdn-th1.ab.ua/image/6e41a5e5c5de41db873d15e4115783e6/img/classifiers/Iveco-logo.png",
+        "combined_value": "1_57_iveco_IVECO",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 58,
+        "title": "JAC",
+        "transport": 1,
+        "slug": "jac",
+        "logo": "https://cdn-th1.ab.ua/image/a715f5cdbda2483b8b1f7ab6f5329840/img/classifiers/JAC-logo.png",
+        "combined_value": "1_58_jac_JAC",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 59,
+        "title": "Jaguar",
+        "transport": 1,
+        "slug": "jaguar",
+        "logo": "https://cdn-th1.ab.ua/image/cfcdd196fa4d4dfdac8c9fc50640bc9e/img/classifiers/Jaguar-logo.png",
+        "combined_value": "1_59_jaguar_Jaguar",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 60,
+        "title": "Jeep",
+        "transport": 1,
+        "slug": "jeep",
+        "logo": "https://cdn-th1.ab.ua/image/5eddf4cf64e94b008191819fe057065a/img/classifiers/Jeep-logo.png",
+        "combined_value": "1_60_jeep_Jeep",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 215,
+        "title": "Jiangnan",
+        "transport": 1,
+        "slug": "jiangnan",
+        "logo": null,
+        "combined_value": "1_215_jiangnan_Jiangnan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 146,
+        "title": "Jinbei",
+        "transport": 1,
+        "slug": "jinbei",
+        "logo": null,
+        "combined_value": "1_146_jinbei_Jinbei",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 61,
+        "title": "JMC",
+        "transport": 1,
+        "slug": "jmc",
+        "logo": "https://cdn-th1.ab.ua/image/ea6c844d8dea45e6a625bba230726980/img/classifiers/Jiangling-logo.png",
+        "combined_value": "1_61_jmc_JMC",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 62,
+        "title": "Kia",
+        "transport": 1,
+        "slug": "kia",
+        "logo": "https://cdn-th1.ab.ua/image/ef706262283e475c84cffe15adc6066b/img/classifiers/Kia-logo.png",
+        "combined_value": "1_62_kia_Kia",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 63,
+        "title": "Koenigsegg",
+        "transport": 1,
+        "slug": "koenigsegg",
+        "logo": "https://cdn-th1.ab.ua/image/928abaca33a74c4cb75ae4e13480b585/img/classifiers/Koenigsegg-logo.png",
+        "combined_value": "1_63_koenigsegg_Koenigsegg",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 2879,
+        "title": "LADA",
+        "transport": 1,
+        "slug": "lada",
+        "logo": "https://cdn-th1.ab.ua/image/28ad06c66fab4fbaa318281d7c87c51b/img/classifiers/Lada-logo.png",
+        "combined_value": "1_2879_lada_LADA",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 64,
+        "title": "Lamborghini",
+        "transport": 1,
+        "slug": "lamborghini",
+        "logo": "https://cdn-th1.ab.ua/image/44ceb59d03b8423e90f83c7bcd4ab3bd/img/classifiers/Lamborghini-logo.png",
+        "combined_value": "1_64_lamborghini_Lamborghini",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 65,
+        "title": "Lancia",
+        "transport": 1,
+        "slug": "lancia",
+        "logo": "https://cdn-th1.ab.ua/image/dffda3f188b040868839a7709892430e/img/classifiers/Lancia-logo.png",
+        "combined_value": "1_65_lancia_Lancia",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 66,
+        "title": "Land Rover",
+        "transport": 1,
+        "slug": "land-rover",
+        "logo": "https://cdn-th1.ab.ua/image/2329fd4cb9cb4a6787b88064bae02367/img/classifiers/Land-Rover-logo.png",
+        "combined_value": "1_66_land-rover_Land Rover",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 67,
+        "title": "Landwind",
+        "transport": 1,
+        "slug": "landwind",
+        "logo": "https://cdn-th1.ab.ua/image/849a818c6d13487e88eb07c8fcc23e77/img/classifiers/Landwind-logo.png",
+        "combined_value": "1_67_landwind_Landwind",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 68,
+        "title": "Lexus",
+        "transport": 1,
+        "slug": "lexus",
+        "logo": "https://cdn-th1.ab.ua/image/a9f4108b762446c88b3061c74ba8d801/img/classifiers/Lexus-logo.png",
+        "combined_value": "1_68_lexus_Lexus",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 69,
+        "title": "Lifan",
+        "transport": 1,
+        "slug": "lifan",
+        "logo": "https://cdn-th1.ab.ua/image/8c3694898ebe430b8222f2913bc513be/img/classifiers/Lifan-logo.png",
+        "combined_value": "1_69_lifan_Lifan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 70,
+        "title": "Lincoln",
+        "transport": 1,
+        "slug": "lincoln",
+        "logo": "https://cdn-th1.ab.ua/image/ee034cbbb7be4fb7922485209a1f33ac/img/classifiers/Lincoln-logo.png",
+        "combined_value": "1_70_lincoln_Lincoln",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 71,
+        "title": "Lotus",
+        "transport": 1,
+        "slug": "lotus",
+        "logo": "https://cdn-th1.ab.ua/image/04fa08033ed5475791d3fa0586661231/img/classifiers/Lotus-logo.png",
+        "combined_value": "1_71_lotus_Lotus",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 173,
+        "title": "LTI",
+        "transport": 1,
+        "slug": "lti",
+        "logo": null,
+        "combined_value": "1_173_lti_LTI",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 174,
+        "title": "Luxgen",
+        "transport": 1,
+        "slug": "luxgen",
+        "logo": "https://cdn-th1.ab.ua/image/bd104caf03d94879afcf0171b29aa6aa/img/classifiers/Luxgen-logo.png",
+        "combined_value": "1_174_luxgen_Luxgen",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 72,
+        "title": "Mahindra",
+        "transport": 1,
+        "slug": "mahindra",
+        "logo": "https://cdn-th1.ab.ua/image/bd8f428ab8b24ba1a327f6a68a34e351/img/classifiers/Mahindra-logo.png",
+        "combined_value": "1_72_mahindra_Mahindra",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 175,
+        "title": "Marcos",
+        "transport": 1,
+        "slug": "marcos",
+        "logo": "https://cdn-th1.ab.ua/image/b2876fb8793f47f59dc9781c90f67de0/img/classifiers/Marcos-logo.png",
+        "combined_value": "1_175_marcos_Marcos",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 176,
+        "title": "Marlin",
+        "transport": 1,
+        "slug": "marlin",
+        "logo": null,
+        "combined_value": "1_176_marlin_Marlin",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 177,
+        "title": "Marussia",
+        "transport": 1,
+        "slug": "marussia",
+        "logo": null,
+        "combined_value": "1_177_marussia_Marussia",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 178,
+        "title": "Maruti",
+        "transport": 1,
+        "slug": "maruti",
+        "logo": null,
+        "combined_value": "1_178_maruti_Maruti",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 73,
+        "title": "Maserati",
+        "transport": 1,
+        "slug": "maserati",
+        "logo": "https://cdn-th1.ab.ua/image/cbe37d4a4de041c6b8729763f357ba70/img/classifiers/Maserati-logo.png",
+        "combined_value": "1_73_maserati_Maserati",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 74,
+        "title": "Maybach",
+        "transport": 1,
+        "slug": "maybach",
+        "logo": "https://cdn-th1.ab.ua/image/9ecbe93618da44339088d5a85fc17f6e/img/classifiers/Maybach-logo.png",
+        "combined_value": "1_74_maybach_Maybach",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 75,
+        "title": "Mazda",
+        "transport": 1,
+        "slug": "mazda",
+        "logo": "https://cdn-th1.ab.ua/image/ca00f6ece6bd43a19d32769a2a038bcc/img/classifiers/Mazda-logo.png",
+        "combined_value": "1_75_mazda_Mazda",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 76,
+        "title": "McLaren",
+        "transport": 1,
+        "slug": "mclaren",
+        "logo": "https://cdn-th1.ab.ua/image/83afd9f19f264d338dc6863732ea56a6/img/classifiers/McLaren-logo.png",
+        "combined_value": "1_76_mclaren_McLaren",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 77,
+        "title": "Mega",
+        "transport": 1,
+        "slug": "mega",
+        "logo": null,
+        "combined_value": "1_77_mega_Mega",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 179,
+        "title": "Mercedes-Benz",
+        "transport": 1,
+        "slug": "mercedes-benz",
+        "logo": "https://cdn-th1.ab.ua/image/6cd481e3d49941819ccd6e4c29df2d95/img/classifiers/Mercedes-Benz-logo.png",
+        "combined_value": "1_179_mercedes-benz_Mercedes-Benz",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 78,
+        "title": "Mercury",
+        "transport": 1,
+        "slug": "mercury",
+        "logo": "https://cdn-th1.ab.ua/image/10885660b84047329b161b2199dbc698/img/classifiers/Mercury-logo.png",
+        "combined_value": "1_78_mercury_Mercury",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 180,
+        "title": "Metrocab",
+        "transport": 1,
+        "slug": "metrocab",
+        "logo": "https://cdn-th1.ab.ua/image/4104d86cbc794f04944074978efdd632/img/classifiers/Metrocab-logo.png",
+        "combined_value": "1_180_metrocab_Metrocab",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 79,
+        "title": "MG",
+        "transport": 1,
+        "slug": "mg",
+        "logo": "https://cdn-th1.ab.ua/image/bc8f5cff14e9416a9aeebd2ba4d4bed0/img/classifiers/MG-logo.png",
+        "combined_value": "1_79_mg_MG",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 181,
+        "title": "Minelli",
+        "transport": 1,
+        "slug": "minelli",
+        "logo": null,
+        "combined_value": "1_181_minelli_Minelli",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 2958,
+        "title": "MINI",
+        "transport": 1,
+        "slug": "mini",
+        "logo": "https://cdn-th1.ab.ua/image/68248c5190424e1b89121cb1641d0be2/img/classifiers/Mini-logo.png",
+        "combined_value": "1_2958_mini_MINI",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 81,
+        "title": "Mitsubishi",
+        "transport": 1,
+        "slug": "mitsubishi",
+        "logo": "https://cdn-th1.ab.ua/image/3b3b03df031c41c8b2e3a9d7026d0c1b/img/classifiers/Mitsubishi-logo.png",
+        "combined_value": "1_81_mitsubishi_Mitsubishi",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 182,
+        "title": "Mitsuoka",
+        "transport": 1,
+        "slug": "mitsuoka",
+        "logo": null,
+        "combined_value": "1_182_mitsuoka_Mitsuoka",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 217,
+        "title": "Monte Carlo",
+        "transport": 1,
+        "slug": "monte-carlo",
+        "logo": null,
+        "combined_value": "1_217_monte-carlo_Monte Carlo",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 82,
+        "title": "Morgan",
+        "transport": 1,
+        "slug": "morgan",
+        "logo": "https://cdn-th1.ab.ua/image/19f0f436141240da976b9c677575b29f/img/classifiers/Morgan-logo.png",
+        "combined_value": "1_82_morgan_Morgan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 218,
+        "title": "NAVECO",
+        "transport": 1,
+        "slug": "naveco",
+        "logo": null,
+        "combined_value": "1_218_naveco_NAVECO",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 83,
+        "title": "Nissan",
+        "transport": 1,
+        "slug": "nissan",
+        "logo": "https://cdn-th1.ab.ua/image/d38c4744a46541409d6ac551dfad63f2/img/classifiers/Nissan-logo.png",
+        "combined_value": "1_83_nissan_Nissan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 183,
+        "title": "Noble",
+        "transport": 1,
+        "slug": "noble",
+        "logo": "https://cdn-th1.ab.ua/image/ff7a9e393be74cedb92844504b7292de/img/classifiers/Noble-logo.png",
+        "combined_value": "1_183_noble_Noble",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 84,
+        "title": "Oldsmobile",
+        "transport": 1,
+        "slug": "oldsmobile",
+        "logo": "https://cdn-th1.ab.ua/image/7272a454125f45e891fc5d964bdbe9da/img/classifiers/Oldsmobile-logo.png",
+        "combined_value": "1_84_oldsmobile_Oldsmobile",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 85,
+        "title": "Opel",
+        "transport": 1,
+        "slug": "opel",
+        "logo": "https://cdn-th1.ab.ua/image/fe0ffc94ce1b46d6b724f8075df55786/img/classifiers/Opel-logo.png",
+        "combined_value": "1_85_opel_Opel",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 86,
+        "title": "Pagani",
+        "transport": 1,
+        "slug": "pagani",
+        "logo": "https://cdn-th1.ab.ua/image/6289d7829a6d4fd7ba13aff27794f3c2/img/classifiers/Pagani-logo.png",
+        "combined_value": "1_86_pagani_Pagani",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 185,
+        "title": "Panoz",
+        "transport": 1,
+        "slug": "panoz",
+        "logo": null,
+        "combined_value": "1_185_panoz_Panoz",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 206,
+        "title": "Paykan",
+        "transport": 1,
+        "slug": "paykan",
+        "logo": null,
+        "combined_value": "1_206_paykan_Paykan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 186,
+        "title": "Perodua",
+        "transport": 1,
+        "slug": "perodua",
+        "logo": "https://cdn-th1.ab.ua/image/f5ace11287274fa293e61a9e87037c15/img/classifiers/Perodua-logo.png",
+        "combined_value": "1_186_perodua_Perodua",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 87,
+        "title": "Peugeot",
+        "transport": 1,
+        "slug": "peugeot",
+        "logo": "https://cdn-th1.ab.ua/image/aaa7e3f5af0540239a3802b565b7c051/img/classifiers/Peugeot-logo.png",
+        "combined_value": "1_87_peugeot_Peugeot",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 88,
+        "title": "Plymouth",
+        "transport": 1,
+        "slug": "plymouth",
+        "logo": "https://cdn-th1.ab.ua/image/d71996d4642045f5b79ad6e14b7bc0a9/img/classifiers/Plymouth-logo.png",
+        "combined_value": "1_88_plymouth_Plymouth",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 89,
+        "title": "Pontiac",
+        "transport": 1,
+        "slug": "pontiac",
+        "logo": "https://cdn-th1.ab.ua/image/aad112909b64481091915e346af822a4/img/classifiers/Pontiac-logo.png",
+        "combined_value": "1_89_pontiac_Pontiac",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 90,
+        "title": "Porsche",
+        "transport": 1,
+        "slug": "porsche",
+        "logo": "https://cdn-th1.ab.ua/image/416ef13e85f74413aee8eba448a22dc6/img/classifiers/Porsche-logo.png",
+        "combined_value": "1_90_porsche_Porsche",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 187,
+        "title": "Premier",
+        "transport": 1,
+        "slug": "premier",
+        "logo": "https://cdn-th1.ab.ua/image/04a3f383fa744e43afc126a79b672f7e/img/classifiers/Premier-logo.png",
+        "combined_value": "1_187_premier_Premier",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 91,
+        "title": "Proton",
+        "transport": 1,
+        "slug": "proton",
+        "logo": "https://cdn-th1.ab.ua/image/046664615e3c4a3ba58b26083d56ad6f/img/classifiers/Proton-logo.png",
+        "combined_value": "1_91_proton_Proton",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 188,
+        "title": "Puma",
+        "transport": 1,
+        "slug": "puma",
+        "logo": null,
+        "combined_value": "1_188_puma_Puma",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 92,
+        "title": "Qoros",
+        "transport": 1,
+        "slug": "qoros",
+        "logo": "https://cdn-th1.ab.ua/image/c6652473240247cdb00f4e509710e170/img/classifiers/Qoros-logo.png",
+        "combined_value": "1_92_qoros_Qoros",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 189,
+        "title": "Qvale",
+        "transport": 1,
+        "slug": "qvale",
+        "logo": null,
+        "combined_value": "1_189_qvale_Qvale",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 159,
+        "title": "RAM",
+        "transport": 1,
+        "slug": "ram",
+        "logo": "https://cdn-th1.ab.ua/image/41cdc39b9e3a4d28af410d549f15f43d/img/classifiers/Ram-logo.png",
+        "combined_value": "1_159_ram_RAM",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 138,
+        "title": "Ravon",
+        "transport": 1,
+        "slug": "ravon",
+        "logo": "https://cdn-th1.ab.ua/image/dc3a104935294faf962d830debde7dda/img/classifiers/Ravon-logo.png",
+        "combined_value": "1_138_ravon_Ravon",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 190,
+        "title": "Reliant",
+        "transport": 1,
+        "slug": "reliant",
+        "logo": null,
+        "combined_value": "1_190_reliant_Reliant",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 93,
+        "title": "Renault",
+        "transport": 1,
+        "slug": "renault",
+        "logo": "https://cdn-th1.ab.ua/image/dedb40ba72e24e2eab443dff021efb8d/img/classifiers/Renault-logo.png",
+        "combined_value": "1_93_renault_Renault",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 3092,
+        "title": "Rolls Royce",
+        "transport": 1,
+        "slug": "rolls-royce",
+        "logo": "https://cdn-th1.ab.ua/image/7bdcf633b51145c5b50a374de9ff92bc/img/classifiers/Rolls-Royce-logo.png",
+        "combined_value": "1_3092_rolls-royce_Rolls Royce",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 192,
+        "title": "Ronart",
+        "transport": 1,
+        "slug": "ronart",
+        "logo": null,
+        "combined_value": "1_192_ronart_Ronart",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 95,
+        "title": "Rover",
+        "transport": 1,
+        "slug": "rover",
+        "logo": "https://cdn-th1.ab.ua/image/5fc0c0fe88e344939a333d2abaf979b1/img/classifiers/Rover-logo.png",
+        "combined_value": "1_95_rover_Rover",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 96,
+        "title": "Saab",
+        "transport": 1,
+        "slug": "saab",
+        "logo": "https://cdn-th1.ab.ua/image/785940f6b7944c63a5e6e6d8ba630a40/img/classifiers/Saab-logo.png",
+        "combined_value": "1_96_saab_Saab",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 193,
+        "title": "Saleen",
+        "transport": 1,
+        "slug": "saleen",
+        "logo": "https://cdn-th1.ab.ua/image/d5bb0b9f245441f6ab7d28b6145ba95e/img/classifiers/Saleen-logo.png",
+        "combined_value": "1_193_saleen_Saleen",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 94,
+        "title": "Samsung",
+        "transport": 1,
+        "slug": "samsung",
+        "logo": "https://cdn-th1.ab.ua/image/e871d9dda9a547a389770fc86a196795/img/classifiers/Samsung-logo.png",
+        "combined_value": "1_94_samsung_Samsung",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 97,
+        "title": "Saturn",
+        "transport": 1,
+        "slug": "saturn",
+        "logo": "https://cdn-th1.ab.ua/image/e849201c55e04c7a947ba7945880c83c/img/classifiers/Saturn-logo.png",
+        "combined_value": "1_97_saturn_Saturn",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 98,
+        "title": "Scion",
+        "transport": 1,
+        "slug": "scion",
+        "logo": "https://cdn-th1.ab.ua/image/e22afcbe897f4b97a30ecbf5fca370d0/img/classifiers/Scion-logo.png",
+        "combined_value": "1_98_scion_Scion",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 99,
+        "title": "SEAT",
+        "transport": 1,
+        "slug": "seat",
+        "logo": "https://cdn-th1.ab.ua/image/8c31042fb4f3420b91fe24a3f59580da/img/classifiers/SEAT-logo.png",
+        "combined_value": "1_99_seat_SEAT",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 150,
+        "title": "Shifeng",
+        "transport": 1,
+        "slug": "shifeng",
+        "logo": null,
+        "combined_value": "1_150_shifeng_Shifeng",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 100,
+        "title": "ShuangHuan",
+        "transport": 1,
+        "slug": "shuanghuan",
+        "logo": null,
+        "combined_value": "1_100_shuanghuan_ShuangHuan",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 101,
+        "title": "Skoda",
+        "transport": 1,
+        "slug": "skoda",
+        "logo": "https://cdn-th1.ab.ua/image/74b998215679498ca93047b032274678/img/classifiers/Skoda-logo.png",
+        "combined_value": "1_101_skoda_Skoda",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 151,
+        "title": "SMA",
+        "transport": 1,
+        "slug": "sma",
+        "logo": null,
+        "combined_value": "1_151_sma_SMA",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 102,
+        "title": "Smart",
+        "transport": 1,
+        "slug": "smart",
+        "logo": "https://cdn-th1.ab.ua/image/1530593789a8490d93a8f1044b804dc0/img/classifiers/Smart-logo.png",
+        "combined_value": "1_102_smart_Smart",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 103,
+        "title": "Soueast",
+        "transport": 1,
+        "slug": "soueast",
+        "logo": null,
+        "combined_value": "1_103_soueast_Soueast",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 195,
+        "title": "Spectre",
+        "transport": 1,
+        "slug": "spectre",
+        "logo": null,
+        "combined_value": "1_195_spectre_Spectre",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 105,
+        "title": "SsangYong",
+        "transport": 1,
+        "slug": "ssangyong",
+        "logo": "https://cdn-th1.ab.ua/image/6b4ce8bcb2634f68ac7533b3a0d08b85/img/classifiers/SsangYong-logo.png",
+        "combined_value": "1_105_ssangyong_SsangYong",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 106,
+        "title": "Subaru",
+        "transport": 1,
+        "slug": "subaru",
+        "logo": "https://cdn-th1.ab.ua/image/437b92e0e6b04f59b3316a42f36b3503/img/classifiers/Subaru-logo.png",
+        "combined_value": "1_106_subaru_Subaru",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 107,
+        "title": "Suzuki",
+        "transport": 1,
+        "slug": "suzuki",
+        "logo": "https://cdn-th1.ab.ua/image/dcb79fe827cd4b95967d7b3c3b4fdda1/img/classifiers/Suzuki-logo.png",
+        "combined_value": "1_107_suzuki_Suzuki",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 3200,
+        "title": "TagAZ",
+        "transport": 1,
+        "slug": "tagaz",
+        "logo": "https://cdn-th1.ab.ua/image/f642ebafb8864f2f873945650eab2bdb/img/classifiers/%D0%ADmblema_Doninvest.jpg",
+        "combined_value": "1_3200_tagaz_TagAZ",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 108,
+        "title": "Talbot",
+        "transport": 1,
+        "slug": "talbot",
+        "logo": "https://cdn-th1.ab.ua/image/1c298f4092e043dcbecaafa3ebdf62f1/img/classifiers/Talbot-logo.png",
+        "combined_value": "1_108_talbot_Talbot",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 109,
+        "title": "Tata",
+        "transport": 1,
+        "slug": "tata",
+        "logo": "https://cdn-th1.ab.ua/image/ac5ebff6e71847098ce87338b88b7371/img/classifiers/Tata-logo.png",
+        "combined_value": "1_109_tata_Tata",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 110,
+        "title": "Tatra",
+        "transport": 1,
+        "slug": "tatra",
+        "logo": "https://cdn-th1.ab.ua/image/675054ca4e0945aca89eb95c6b36cd57/img/classifiers/Tatra-logo.png",
+        "combined_value": "1_110_tatra_Tatra",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 111,
+        "title": "Tesla",
+        "transport": 1,
+        "slug": "tesla",
+        "logo": "https://cdn-th1.ab.ua/image/a594c85188f448aca1783fcb326e6df7/img/classifiers/Tesla-logo.png",
+        "combined_value": "1_111_tesla_Tesla",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 112,
+        "title": "Tianma",
+        "transport": 1,
+        "slug": "tianma",
+        "logo": null,
+        "combined_value": "1_112_tianma_Tianma",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 196,
+        "title": "Tianye",
+        "transport": 1,
+        "slug": "tianye",
+        "logo": null,
+        "combined_value": "1_196_tianye_Tianye",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 197,
+        "title": "Tofas",
+        "transport": 1,
+        "slug": "tofas",
+        "logo": null,
+        "combined_value": "1_197_tofas_Tofas",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 113,
+        "title": "Toyota",
+        "transport": 1,
+        "slug": "toyota",
+        "logo": "https://cdn-th1.ab.ua/image/c260d4a2e4a0476a87cd00de992f56cc/img/classifiers/Toyota-logo.png",
+        "combined_value": "1_113_toyota_Toyota",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 114,
+        "title": "Trabant",
+        "transport": 1,
+        "slug": "trabant",
+        "logo": "https://cdn-th1.ab.ua/image/aa30d824aa7a4ff69260ae198a958801/img/classifiers/Trabant-logo.png",
+        "combined_value": "1_114_trabant_Trabant",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 115,
+        "title": "TVR",
+        "transport": 1,
+        "slug": "tvr",
+        "logo": "https://cdn-th1.ab.ua/image/1aff367e1feb472782f75405f723de8a/img/classifiers/TVR-logo.png",
+        "combined_value": "1_115_tvr_TVR",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 198,
+        "title": "Vector",
+        "transport": 1,
+        "slug": "vector",
+        "logo": "https://cdn-th1.ab.ua/image/54d5e5e076db488f80faffbe5cd0851e/img/classifiers/Vector-Motors-logo.png",
+        "combined_value": "1_198_vector_Vector",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 117,
+        "title": "Venturi",
+        "transport": 1,
+        "slug": "venturi",
+        "logo": "https://cdn-th1.ab.ua/image/0a4558e232354a8abd13cc297fa6f4cf/img/classifiers/Venturi-logo.png",
+        "combined_value": "1_117_venturi_Venturi",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 118,
+        "title": "Volkswagen",
+        "transport": 1,
+        "slug": "volkswagen",
+        "logo": "https://cdn-th1.ab.ua/image/2fd771d0532c44fbbaf4d812ddaa7815/img/classifiers/vw.png",
+        "combined_value": "1_118_volkswagen_Volkswagen",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 119,
+        "title": "Volvo",
+        "transport": 1,
+        "slug": "volvo",
+        "logo": "https://cdn-th1.ab.ua/image/38ea9c68e9ac46f880d47b0388140ebd/img/classifiers/Volvo-logo.png",
+        "combined_value": "1_119_volvo_Volvo",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 120,
+        "title": "Vortex",
+        "transport": 1,
+        "slug": "vortex",
+        "logo": null,
+        "combined_value": "1_120_vortex_Vortex",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 121,
+        "title": "Wartburg",
+        "transport": 1,
+        "slug": "wartburg",
+        "logo": null,
+        "combined_value": "1_121_wartburg_Wartburg",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 122,
+        "title": "Wiesmann",
+        "transport": 1,
+        "slug": "wiesmann",
+        "logo": "https://cdn-th1.ab.ua/image/777ff31ecb9341b7b97590f2a1cea9de/img/classifiers/Wiesmann-logo.png",
+        "combined_value": "1_122_wiesmann_Wiesmann",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 152,
+        "title": "Wuling",
+        "transport": 1,
+        "slug": "wuling",
+        "logo": "https://cdn-th1.ab.ua/image/a3e28e697a95483e95b030f4b689276d/img/classifiers/Wuling-logo.png",
+        "combined_value": "1_152_wuling_Wuling",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 200,
+        "title": "Xin Kai",
+        "transport": 1,
+        "slug": "xin-kai",
+        "logo": null,
+        "combined_value": "1_200_xin-kai_Xin Kai",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 153,
+        "title": "Yuejin",
+        "transport": 1,
+        "slug": "yuejin",
+        "logo": null,
+        "combined_value": "1_153_yuejin_Yuejin",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 123,
+        "title": "Zastava",
+        "transport": 1,
+        "slug": "zastava",
+        "logo": "https://cdn-th1.ab.ua/image/7dd57ac989a84fcda96e65916da96d38/img/classifiers/Zastava-logo.png",
+        "combined_value": "1_123_zastava_Zastava",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 124,
+        "title": "Zotye",
+        "transport": 1,
+        "slug": "zotye",
+        "logo": "https://cdn-th1.ab.ua/image/abc2c86105d248f19a1c191cd531b821/img/classifiers/Zotye-logo.png",
+        "combined_value": "1_124_zotye_Zotye",
+        "transport_slug": "avto"
+    },
+    {
+        "id": 201,
+        "title": "ZX",
+        "transport": 1,
+        "slug": "zx",
+        "logo": "https://cdn-th1.ab.ua/image/b1d0796c88764e939168d215e4cd6ed1/img/classifiers/ZX-logo.png",
+        "combined_value": "1_201_zx_ZX",
+        "transport_slug": "avto"
+    }
+]
