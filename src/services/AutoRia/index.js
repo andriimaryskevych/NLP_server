@@ -9,27 +9,11 @@ class AutoRia {
     constructor() {}
 
     getAllMarks () {
-        return new Promise((resolve, reject) => {
-            try {
-                const result = prolog.getAllMarks(AUTO_RIA);
-
-                resolve(result);
-            } catch (err) {
-                reject(err);
-            }
-        })
+        return prolog.getAllMarks(AUTO_RIA);
     }
 
     getAllModelsByMark (mark) {
-        return new Promise((resolve, reject) => {
-            try {
-                const result = prolog.getAllModelsByMark(AUTO_RIA, mark);
-
-                resolve(result);
-            } catch (err) {
-                reject(err);
-            }
-        })
+        return prolog.getAllModelsByMark(AUTO_RIA, mark);
     }
 }
 

@@ -22,54 +22,58 @@ class AccessLayer {
     }
 
     getAllMarks (carStore) {
-        const makeName = 'Make',
-            id = 'Id';
+        return new Promise(resolve => {
+            const makeName = 'Make',
+                id = 'Id';
 
-        const queryResult = this._requestHandler(
-            MAKE,
-            [
-                carStore,
-                variable(makeName),
-                variable(id)
-            ]
-        );
+            const queryResult = this._requestHandler(
+                MAKE,
+                [
+                    carStore,
+                    variable(makeName),
+                    variable(id)
+                ]
+            );
 
-        const requestedMarks = [];
+            const requestedMarks = [];
 
-        queryResult.forEach(mark => {
-            requestedMarks.push(new Mark(carStore, mark[makeName], mark[id]));
+            queryResult.forEach(mark => {
+                requestedMarks.push(new Mark(carStore, mark[makeName], mark[id]));
+            });
+
+            resolve(requestedMarks);
         });
-
-        return requestedMarks;
     }
 
     getAllModelsByMark (carStore, mark) {
-        const modelName = 'Model',
-            id = 'Id';
+        return new Promise(resolve => {
+            const modelName = 'Model',
+                id = 'Id';
 
-        const queryResult = this._requestHandler(
-            MODELS,
-            [
-                carStore,
-                mark,
-                variable(modelName),
-                variable(id)
-            ]
-        );
-
-        const requestedModels = [];
-
-        queryResult.forEach(model => {
-            requestedModels.push(new Model(
+            const queryResult = this._requestHandler(
+                MODELS,
+                [
                     carStore,
                     mark,
-                    model[modelName],
-                    model[id]
-                )
+                    variable(modelName),
+                    variable(id)
+                ]
             );
-        });
 
-        return requestedModels;
+            const requestedModels = [];
+
+            queryResult.forEach(model => {
+                requestedModels.push(new Model(
+                        carStore,
+                        mark,
+                        model[modelName],
+                        model[id]
+                    )
+                );
+            });
+
+            resolve(requestedModels);
+        });
     }
 
     _requestHandler (predicate, compoundParams) {
