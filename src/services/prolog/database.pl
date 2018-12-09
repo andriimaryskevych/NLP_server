@@ -1,6 +1,8 @@
 :- use_module(library(persistency)).
 
 :- persistent fact(fact1:any, fact2:any).
+:- persistent make(fact1:any, fact2:any, fact3:any).
+:- persistent model(fact1:any, fact2:any, fact3:any, fact4:any).
 
 :- initialization(init).
 
