@@ -5,6 +5,13 @@ const constants = require('../../constants');
 
 const { AUTO_RIA } = constants.CAR_STORE;
 
+/**
+ * To search for cars using AutoRia.com API we need to query ids, that match our filters
+ * https://developers.ria.com/auto/search
+ *
+ * Later for each needed id, separate request will fetch all data
+ * https://developers.ria.com/auto/search?auto_id={{ad id}}
+ */
 class AutoRia {
     constructor() {}
 
