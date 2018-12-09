@@ -4,9 +4,15 @@ const {
     AUTOBAZAR
 } = require('../src/constants').CAR_STORE
 
-// console.log(prolog.getAllMarks(AUTO_RIA));
+const {
+    Mark
+} = require('../src/services/prolog/models');
 
-console.log(prolog.getAllModelsByMark(AUTO_RIA, 'BMW'));
+console.log(new Mark());
+
+console.log(prolog.getAllMarks(AUTOBAZAR));
+
+// console.log(prolog.getAllModelsByMark(AUTO_RIA, 'BMW'));
 
 // const swipl = require('swipl');
 // const { compound, variable, serialize } = swipl.term;

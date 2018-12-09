@@ -11,52 +11,81 @@ const {
     MODELS
 } = require('../../constants').PROLOG.PREDICATES;
 
+const {
+    Mark,
+    Model
+} = require('./models');
+
 class AccessLayer {
     constructor (swipl) {
         this.swipl = swipl;
     }
 
     getAllMarks (carStore) {
-        const escaped = serialize(
-            compound(
-                MAKE,
-                [
-                    carStore,
-                    variable('X'),
-                    variable('_')
-                ]
-            )
+        const makeName = 'Make',
+            id = 'Id';
+
+        const queryResult = this._requestHandler(
+            MAKE,
+            [
+                carStore,
+                variable(makeName),
+                variable(id)
+            ]
         );
 
-        return this._requestHandler(escaped);
+        const requestedMarks = [];
+
+        queryResult.forEach(mark => {
+            requestedMarks.push(new Mark(carStore, mark[makeName], mark[id]));
+        });
+
+        return requestedMarks;
     }
 
     getAllModelsByMark (carStore, mark) {
-        const escaped = serialize(
-            compound(
-                MODELS,
-                [
-                    carStore,
-                    mark,
-                    variable('X'),
-                    variable('_')
-                ]
-            )
+        const modelName = 'Model',
+            id = 'Id';
+
+        const queryResult = this._requestHandler(
+            MODELS,
+            [
+                carStore,
+                mark,
+                variable(modelName),
+                variable(id)
+            ]
         );
 
-        return this._requestHandler(escaped);
+        const requestedModels = [];
+
+        queryResult.forEach(model => {
+            requestedModels.push(new Model(
+                    carStore,
+                    mark,
+                    model[modelName],
+                    model[id]
+                )
+            );
+        });
+
+        return requestedModels;
     }
 
-    _requestHandler (predicate) {
-        const query = new this.swipl.Query(predicate),
+    _requestHandler (predicate, compoundParams) {
+        const escaped = serialize(
+            compound(
+                predicate,
+                compoundParams
+            )
+        );
+        const query = new this.swipl.Query(escaped),
             result = [];
 
         let ret = null;
 
         while (ret = query.next()) {
-            result.push({
-                ['X']: ret.X
-            });
+            result.push(ret);
         }
 
         query.close();
