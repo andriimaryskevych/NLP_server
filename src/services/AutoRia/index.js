@@ -4,19 +4,30 @@ const prolog = require('../prolog');
 const constants = require('../../constants');
 
 const { AUTO_RIA } = constants.CAR_STORE;
-const { MAKE } = constants.PROLOG.PREDICATES;
 
 class AutoRia {
     constructor() {}
 
     getAllMarks () {
         return new Promise((resolve, reject) => {
-            const query = new prolog.Query(`${MAKE}('${AUTO_RIA}', , X, _)`);
+            try {
+                const result = prolog.getAllMarks(AUTO_RIA);
 
-            let ret = null;
+                resolve(result);
+            } catch (err) {
+                reject(err);
+            }
+        })
+    }
 
-            while (ret = query.next()) {
-                console.log(`${ret.Store} has BMW ${ret.X}`);
+    getAllModelsByMark (mark) {
+        return new Promise((resolve, reject) => {
+            try {
+                const result = prolog.getAllModelsByMark(AUTO_RIA, mark);
+
+                resolve(result);
+            } catch (err) {
+                reject(err);
             }
         })
     }
