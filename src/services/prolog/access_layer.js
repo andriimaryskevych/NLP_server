@@ -79,6 +79,7 @@ class AccessLayer {
                 compoundParams
             )
         );
+
         const query = new this.swipl.Query(escaped),
             result = [];
 
@@ -88,7 +89,10 @@ class AccessLayer {
             result.push(ret);
         }
 
-        query.close();
+        // Closing query which has not returned any value causes error
+        if (result.length !== 0) {
+            query.close();
+        }
 
         return result;
     }
