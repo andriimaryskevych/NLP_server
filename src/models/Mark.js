@@ -25,8 +25,8 @@ class Mark {
         return MARK;
     }
 
-    static find (criteria) {
-        const DB_result = prolog.find(this, criteria);
+    static async find (criteria) {
+        const DB_result = await prolog.find(this, criteria);
 
         const {
             STORE_NAME,

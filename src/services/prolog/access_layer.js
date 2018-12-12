@@ -1,19 +1,31 @@
 'use strict';
 
+const path = require('path');
+
+const slash = require('slash');
 const _ = require('lodash');
 
 const {
     compound,
     variable,
     serialize
-} = require('swipl').term;
+} = require('swipl-stdio').term;
 
 class AccessLayer {
     constructor (swipl) {
         this.swipl = swipl;
+
+        const prologFile = slash(path.resolve(__dirname, 'database'));
+
+        // Creating single engine instance
+        // Each is a swipl process
+        this.engine = new swipl.Engine();
+
+        // Creating such promise to ensure data base will be filled with values before quering it
+        this.loadedDataBase = this.engine.call(`consult('${prologFile}')`);
     }
 
-    find (model, criteria) {
+    async find (model, criteria) {
         // All 'table' columns
         const keys = Object.values(model.scheme);
 
@@ -31,7 +43,7 @@ class AccessLayer {
             }
         });
 
-        const queryResult = this._requestHandler(predicate, query);
+        const queryResult = await this._requestHandler(predicate, query);
 
         const searchResult = [];
 
@@ -75,7 +87,10 @@ class AccessLayer {
      *      'MarkName': 'Dacia'
      * } --> will evaluate to {ID: '17'} because there is variable ID
      * */
-    _requestHandler (predicate, compoundParams) {
+    async _requestHandler (predicate, compoundParams) {
+        // Waiting until data is loaded into database
+        await this.loadedDataBase;
+
         const escaped = serialize(
             compound(
                 predicate,
@@ -83,16 +98,19 @@ class AccessLayer {
             )
         );
 
-        const prologQueryObject = new this.swipl.Query(escaped),
-            result = [];
+        const prologQueryObject = await this.engine.createQuery(escaped);
 
-        let ret = null;
+        const result = [];
 
-        while (ret = prologQueryObject.next()) {
-            result.push(ret);
+        try {
+            let ret;
+
+            while (ret = await prologQueryObject.next()) {
+                result.push(ret);
+            }
+        } finally {
+            await prologQueryObject.close();
         }
-
-        prologQueryObject.close();
 
         return result;
     }

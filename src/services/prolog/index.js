@@ -1,14 +1,9 @@
-const path = require('path');
+'use strict';
 
-const swipl = require('swipl');
-const slash = require('slash');
+const prolog = require('swipl-stdio');
 
 const AccessLayer = require('./access_layer');
 
-const prologFile = slash(path.resolve(__dirname, 'database'));
-
-swipl.call(`consult('${prologFile}')`);
-
-const instance = new AccessLayer(swipl);
+const instance = new AccessLayer(prolog);
 
 module.exports = instance;
