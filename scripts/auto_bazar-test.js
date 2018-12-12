@@ -1,3 +1,9 @@
 const AutoBazar = require('../src/services/AutoRia');
 
-AutoBazar.getMark('Daewoo').then(res => console.log(res));
+console.log(AutoBazar.getMark({
+    'MarkName': 'Dacia'
+}))
+
+console.log(AutoBazar.getModel({
+    'ID': 'Daewoo'
+}))

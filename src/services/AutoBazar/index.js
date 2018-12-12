@@ -1,19 +1,50 @@
 'use strict';
 
-const prolog = require('../prolog');
+const _ = require('lodash');
+
+const {
+    Mark,
+    Model
+} = require('../../models');
+
 const constants = require('../../constants');
 
-const { AUTOBAZAR } = constants.CAR_STORE;
+
+const {
+    STORE_NAME: MARK_STORE_NAME
+} = Mark.scheme;
+
+const {
+    STORE_NAME: MODEL_STORE_NAME
+} = Model.scheme;
+
+const {
+    AUTOBAZAR
+} = constants.CAR_STORE;
 
 class AutoBazar {
-    constructor() {}
+    getMark (criteria) {
+        const mergedCriteria = _.merge(
+            {},
+            criteria,
+            {
+                [MARK_STORE_NAME]: AUTOBAZAR
+            }
+        );
 
-    getAllMarks () {
-        return prolog.getAllMarks(AUTOBAZAR);
+        return Mark.find(mergedCriteria);
     }
 
-    getAllModelsByMark (mark) {
-        return prolog.getAllModelsByMark(AUTOBAZAR, mark);
+    getModel (criteria) {
+        const mergedCriteria = _.merge(
+            {},
+            criteria,
+            {
+                [MODEL_STORE_NAME]: AUTOBAZAR
+            }
+        );
+
+        return Model.find(mergedCriteria);
     }
 }
 

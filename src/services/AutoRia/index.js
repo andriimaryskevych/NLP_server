@@ -1,9 +1,26 @@
 'use strict';
 
-const prolog = require('../prolog');
+const _ = require('lodash');
+
+const {
+    Mark,
+    Model
+} = require('../../models');
+
 const constants = require('../../constants');
 
-const { AUTO_RIA } = constants.CAR_STORE;
+
+const {
+    STORE_NAME: MARK_STORE_NAME
+} = Mark.scheme;
+
+const {
+    STORE_NAME: MODEL_STORE_NAME
+} = Model.scheme;
+
+const {
+    AUTO_RIA
+} = constants.CAR_STORE;
 
 /**
  * To search for cars using AutoRia.com API we need to query ids, that match our filters
@@ -13,18 +30,28 @@ const { AUTO_RIA } = constants.CAR_STORE;
  * https://developers.ria.com/auto/search?auto_id={{ad id}}
  */
 class AutoRia {
-    constructor() {}
+    getMark (criteria) {
+        const mergedCriteria = _.merge(
+            {},
+            criteria,
+            {
+                [MARK_STORE_NAME]: AUTO_RIA
+            }
+        );
 
-    getAllMarks () {
-        return prolog.getAllMarks(AUTO_RIA);
+        return Mark.find(mergedCriteria);
     }
 
-    getMark (mark) {
-        return prolog.getAllMarks(AUTO_RIA, mark);
-    }
+    getModel (criteria) {
+        const mergedCriteria = _.merge(
+            {},
+            criteria,
+            {
+                [MODEL_STORE_NAME]: AUTO_RIA
+            }
+        );
 
-    getAllModelsByMark (mark) {
-        return prolog.getAllModelsByMark(AUTO_RIA, mark);
+        return Model.find(mergedCriteria);
     }
 }
 

@@ -1,5 +1,4 @@
-const { Mark } = require('../src/models/Mark');
-const { Model } = require('../src/models/Model');
+const { Mark, Model } = require('../src/models');
 
 const {
     STORE_NAME,

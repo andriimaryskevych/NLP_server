@@ -48,4 +48,4 @@ class Mark {
     }
 };
 
-module.exports.Mark = Mark;
+module.exports = Mark;
