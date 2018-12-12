@@ -1,78 +1,52 @@
 'use strict';
 
+const _ = require('lodash');
+
 const {
     compound,
     variable,
     serialize
 } = require('swipl').term;
 
-const {
-    MAKE,
-    MODELS
-} = require('../../constants').PROLOG.PREDICATES;
-
-const {
-    Mark,
-    Model
-} = require('./models');
-
 class AccessLayer {
     constructor (swipl) {
         this.swipl = swipl;
     }
 
-    getAllMarks (carStore) {
-        return new Promise(resolve => {
-            const makeName = 'Make',
-                id = 'Id';
+    find (model, criteria) {
+        const keys = Object.values(model.scheme);
 
-            const queryResult = this._requestHandler(
-                MAKE,
-                [
-                    carStore,
-                    variable(makeName),
-                    variable(id)
-                ]
-            );
+        const predicate = model.name;
+        const query = [];
 
-            const requestedMarks = [];
-
-            queryResult.forEach(mark => {
-                requestedMarks.push(new Mark(carStore, mark[makeName], mark[id]));
-            });
-
-            resolve(requestedMarks);
+        keys.forEach(key => {
+            if (key in criteria) {
+                query.push(criteria[key]);
+            } else {
+                query.push(variable(key));
+            }
         });
-    }
 
-    getAllModelsByMark (carStore, mark) {
         return new Promise(resolve => {
-            const modelName = 'Model',
-                id = 'Id';
+            const queryResult = this._requestHandler(predicate, query);
 
-            const queryResult = this._requestHandler(
-                MODELS,
-                [
-                    carStore,
-                    mark,
-                    variable(modelName),
-                    variable(id)
-                ]
-            );
+            const searchResult = [];
 
-            const requestedModels = [];
+            queryResult.forEach(response => {
+                const res = {};
 
-            queryResult.forEach(model => {
-                requestedModels.push(new Model(
-                        carStore,
-                        mark,
-                        model[modelName],
-                        model[id]
-                    )
-                );
+                keys.forEach(key => {
+                    if (key in criteria) {
+                        res[key] = criteria[key];
+                    } else {
+                        res[key] = response[key];
+                    }
+                });
+
+                searchResult.push(res);
             });
 
-            resolve(requestedModels);
+            resolve(searchResult);
         });
     }
 
@@ -94,9 +68,11 @@ class AccessLayer {
         }
 
         // Closing query which has not returned any value causes error
-        if (result.length !== 0) {
-            query.close();
-        }
+            try {
+                // query.close();
+            } catch (e) {
+                console.log(e);
+            }
 
         return result;
     }

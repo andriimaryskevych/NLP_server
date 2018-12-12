@@ -7,12 +7,12 @@ const constant = {
     },
     PROLOG: {
         PREDICATES: {
-            MAKE: 'make',
-            MODELS: 'model'
+            MARK: 'mark',
+            MODEL: 'model'
         }
     },
     SEARCH_FILTER: {
-        MAKE: 'make',
+        MARK: 'mark',
         MODEL: 'model',
         PRODUCTION_YEAR_FROM: 'productionYearFrom',
         PRODUCTION_YEAR_TO: 'productionYearTo',
@@ -20,7 +20,7 @@ const constant = {
         PRICE_TO: 'priceTo'
     },
     SEARCH_OPTION: {
-        ITEMS_PER_PAGE: 5
+        PAGE: 'page'
     }
 };
 

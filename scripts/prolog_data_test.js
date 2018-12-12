@@ -4,9 +4,7 @@ const {
     AUTOBAZAR
 } = require('../src/constants').CAR_STORE
 
-const {
-    Mark
-} = require('../src/services/prolog/models');
+const { Mark } = require('../src/services/prolog/models');
 
 console.log(new Mark());
 

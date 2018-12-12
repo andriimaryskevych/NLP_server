@@ -1,3 +1,3 @@
-const AutoBazar = require('../src/services/AutoBazar');
+const AutoBazar = require('../src/services/AutoRia');
 
-AutoBazar.getAllModelsByMark('Daewoo').then(res => console.log(res));
+AutoBazar.getMark('Daewoo').then(res => console.log(res));

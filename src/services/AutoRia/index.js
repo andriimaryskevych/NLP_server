@@ -19,6 +19,10 @@ class AutoRia {
         return prolog.getAllMarks(AUTO_RIA);
     }
 
+    getMark (mark) {
+        return prolog.getAllMarks(AUTO_RIA, mark);
+    }
+
     getAllModelsByMark (mark) {
         return prolog.getAllModelsByMark(AUTO_RIA, mark);
     }

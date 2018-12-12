@@ -1,13 +1,7 @@
 'use strict';
 
 class Advertisment {
-    constructor (
-        name,
-        image,
-        price,
-        adId,
-        carStore
-    ) {
+    constructor (name, image, price, adId, carStore) {
         Object.assign(this, {
             name,
             image,
