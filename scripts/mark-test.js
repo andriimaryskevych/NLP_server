@@ -1,17 +1,22 @@
 const { Mark } = require('../src/models/Mark');
-
-console.log(Mark.name);
+const { Model } = require('../src/models/Model');
 
 const {
     STORE_NAME,
-    MARK_NAME
+    MARK_NAME,
+    ID
 } = Mark.scheme;
 
-Mark.find({
-    [STORE_NAME]: 'AUTO_RIA',
-    [MARK_NAME]: 'Daewoo'
-}).then(data => console.log("data"));
-
-Mark.find({
+const one = Mark.find({
     [STORE_NAME]: 'AUTO_RIA'
-}).then(data => console.log("data"));
+});
+
+const two = Mark.find({
+    [STORE_NAME]: 'AUTO_RIA',
+    [ID]: '45'
+});
+
+const three = Model.find({
+})
+
+console.log(three.length);

@@ -27,27 +27,25 @@ class AccessLayer {
             }
         });
 
-        return new Promise(resolve => {
-            const queryResult = this._requestHandler(predicate, query);
+        const queryResult = this._requestHandler(predicate, query);
 
-            const searchResult = [];
+        const searchResult = [];
 
-            queryResult.forEach(response => {
-                const res = {};
+        queryResult.forEach(response => {
+            const res = {};
 
-                keys.forEach(key => {
-                    if (key in criteria) {
-                        res[key] = criteria[key];
-                    } else {
-                        res[key] = response[key];
-                    }
-                });
-
-                searchResult.push(res);
+            keys.forEach(key => {
+                if (key in criteria) {
+                    res[key] = criteria[key];
+                } else {
+                    res[key] = response[key];
+                }
             });
 
-            resolve(searchResult);
+            searchResult.push(res);
         });
+
+        return searchResult;
     }
 
     _requestHandler (predicate, compoundParams) {
@@ -58,21 +56,16 @@ class AccessLayer {
             )
         );
 
-        const query = new this.swipl.Query(escaped),
+        const prologQueryObject = new this.swipl.Query(escaped),
             result = [];
 
         let ret = null;
 
-        while (ret = query.next()) {
+        while (ret = prologQueryObject.next()) {
             result.push(ret);
         }
 
-        // Closing query which has not returned any value causes error
-            try {
-                // query.close();
-            } catch (e) {
-                console.log(e);
-            }
+        prologQueryObject.close();
 
         return result;
     }

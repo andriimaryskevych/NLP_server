@@ -2,6 +2,8 @@
 
 const { MODEL } = require('../constants').PROLOG.PREDICATES;
 
+const prolog = require('../services/prolog');
+
 class Model {
     constructor (store, mark, name, id) {
         Object.assign(this, {
@@ -26,8 +28,28 @@ class Model {
     }
 
     static find (criteria) {
-        return prolog.find(this, criteria);
+        const DB_result = prolog.find(this, criteria);
+
+        const {
+            STORE_NAME,
+            MARK_NAME,
+            MODEL_NAME,
+            ID
+        } = this.scheme;
+
+        const mappedResponse = [];
+
+        DB_result.forEach(row => {
+            mappedResponse.push(new Model(
+                row[STORE_NAME],
+                row[MARK_NAME],
+                row[MODEL_NAME],
+                row[ID]
+            ))
+        });
+
+        return mappedResponse;
     }
 };
 
-module.exports = Model;
+module.exports.Model = Model;
