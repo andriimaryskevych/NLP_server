@@ -1,6 +1,6 @@
 'use strict';
 
-const prolog = require('swipl-stdio');
+const prolog = require('./node-prolog');
 
 const AccessLayer = require('./access_layer');
 

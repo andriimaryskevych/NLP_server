@@ -9,20 +9,23 @@ const {
     compound,
     variable,
     serialize
-} = require('swipl-stdio').term;
+} = require('./node-prolog/term');
 
 class AccessLayer {
-    constructor (swipl) {
-        this.swipl = swipl;
+    constructor (executor) {
+        this.executor = executor;
 
         const prologFile = slash(path.resolve(__dirname, 'database'));
 
-        // Creating single engine instance
-        // Each is a swipl process
-        this.engine = new swipl.Engine();
-
         // Creating such promise to ensure data base will be filled with values before quering it
-        this.loadedDataBase = this.engine.call(`consult('${prologFile}')`);
+        let executorTop;
+
+        this.executor(`consult('${prologFile}')`)
+            .then(executor => {
+                executorTop = executor;
+                return executor.next();
+            })
+            .then(() => executorTop.close());
     }
 
     async find (model, criteria) {
@@ -88,9 +91,6 @@ class AccessLayer {
      * } --> will evaluate to {ID: '17'} because there is variable ID
      * */
     async _requestHandler (predicate, compoundParams) {
-        // Waiting until data is loaded into database
-        await this.loadedDataBase;
-
         const escaped = serialize(
             compound(
                 predicate,
@@ -98,7 +98,7 @@ class AccessLayer {
             )
         );
 
-        const prologQueryObject = await this.engine.createQuery(escaped);
+        const prologQueryObject = await this.executor(escaped);
 
         const result = [];
 

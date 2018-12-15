@@ -1,11 +1,19 @@
 const AutoBazar = require('../src/services/AutoRia');
 
 AutoBazar.getMark({
-    "ID": '45'
+    "MarkName": 'Daewoo'
+}).then(data => console.log(data));
+
+setTimeout(() => {
+    AutoBazar.getModel({
+        "MarkName": 'Daewoo'
+    }).then(data => console.log(data));
+}, 1000)
+
+AutoBazar.getMark({
+    "MarkName": 'Daewoo'
 }).then(data => console.log(data));
 
 AutoBazar.getModel({
-    "ID": 'sdfgd'
+    "ID": '45sfsfsd'
 }).then(data => console.log(data));
-
-// setInterval(() => {console.log('Hello')}, 10);

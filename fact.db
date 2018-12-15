@@ -5238,7 +5238,6 @@ assert(model('AUTO_RIA','Daewoo','Lacetti','1099')).
 assert(model('AUTO_RIA','Daewoo','Lanos','161')).
 assert(model('AUTO_RIA','Daewoo','LE Mans','1100')).
 assert(model('AUTO_RIA','Daewoo','Leganza','162')).
-assert(model('AUTO_RIA','Daewoo','Lublin Ð³Ñ\200\Ñ\203\Ð·.','3895')).
 assert(model('AUTO_RIA','Daewoo','Magnus','1101')).
 assert(model('AUTO_RIA','Daewoo','Matiz','163')).
 assert(model('AUTO_RIA','Daewoo','Musso','164')).
