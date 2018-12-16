@@ -7,7 +7,7 @@ const EventEmitter = require('events');
 
 const util = require('./lib/utils');
 
-const enableLogger = false;
+const enableLogger = 0;
 
 const logger = enableLogger ?
     console :

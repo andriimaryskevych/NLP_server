@@ -1,4 +1,4 @@
-const enableLogger = true;
+const enableLogger = false;
 
 const logger = enableLogger ?
     console :
