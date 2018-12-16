@@ -5,7 +5,7 @@ const {
 } = require('child_process');
 const EventEmitter = require('events');
 
-const util = require('./utils');
+const util = require('./lib/utils');
 
 const enableLogger = false;
 
@@ -256,3 +256,5 @@ function requestQueryExecutor (query) {
 }
 
 module.exports = requestQueryExecutor;
+
+module.exports.Engine = {};
