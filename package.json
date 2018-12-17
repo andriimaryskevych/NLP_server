@@ -11,10 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "dialogflow": "^0.7.0",
     "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
-    "slash": "^2.0.0"
+    "slash": "^2.0.0",
+    "uuid": "^3.3.2"
   }
 }

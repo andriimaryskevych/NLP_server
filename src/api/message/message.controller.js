@@ -1,5 +1,13 @@
 'use strict';
 
+const {
+    DialogFlow
+} = require('../../services/DialogFlow');
+
 exports.handleUserMessage = (req, res) => {
-    res.send('Message recived');
+    DialogFlow
+        .detectIntent(req.body.message)
+        .then(response => {
+            res.send(response);
+        });
 };
