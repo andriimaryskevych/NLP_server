@@ -1,26 +1,86 @@
 'use strict';
 
 const { WebhookClient } = require('dialogflow-fulfillment');
+const constants = require('../../constants');
+
+const AutoRia = require('../../services/AutoRia');
+const AutoBazar = require('../../services/AutoBazar');
+
+const {
+    MARK,
+    MODEL,
+    PRICE_FROM,
+    PRICE_TO
+} = constants.SEARCH_FILTER;
+
+const {
+    LINKS
+} = constants.RESPONSE_TYPE;
+
+const {
+    AUTO_RIA,
+    AUTOBAZAR
+} = constants.CAR_STORE
 
 const DIALOGFLOW_ENTITIES = {
-    MODEL: 'car_model',
-    MARK: 'car_mark',
-    PRICE_TO: 'number',
-    PRICE_FROM: 'number-integer'
-}
+    [MODEL]: 'car_model',
+    [MARK]: 'car_mark',
+    [PRICE_FROM]: 'number-integer',
+    [PRICE_TO]: 'number'
+};
 
-const close = agent => {
-    const params = agent.contexts[0].parameters;
+const close = async agent => {
+    const params = agent.contexts[0].parameters || {};
 
-    const res = {};
+    const searchQuery = {};
 
     Object.entries(DIALOGFLOW_ENTITIES).forEach(([key, value]) => {
-        res[key] = params[value];
+        if (params[value]) {
+            searchQuery[key] = params[value];
+        }
     });
 
-    console.log(res);
+    try {
+        console.log(searchQuery);
 
-    agent.add(`Welcome to Express.JS webhook!`);
+        const response = {
+            type: LINKS,
+            payload: {}
+        };
+
+        try {
+            const linkAB = await AutoBazar.buildSearchURL(searchQuery);
+
+            response.payload[AUTOBAZAR] = {
+                link: linkAB,
+                status: 200
+            }
+        } catch (err) {
+            response.payload[AUTOBAZAR] = {
+                link: '',
+                status: 400
+            }
+        }
+
+        try {
+            const linkRIA = await AutoRia.buildSearchURL(searchQuery);
+
+            response.payload[AUTO_RIA] = {
+                link: linkRIA,
+                status: 200
+            }
+        } catch (err) {
+            response.payload[AUTO_RIA] = {
+                link: '',
+                status: 400
+            }
+        }
+
+        agent.add(JSON.stringify(response));
+    } catch (err) {
+        console.log(err)
+        agent.add(`Welcome to Express.JS webhook! error occured`);
+    }
 };
 
 exports.message = (req, res) => {

@@ -21,6 +21,10 @@ const constant = {
     },
     SEARCH_OPTION: {
         PAGE: 'page'
+    },
+    RESPONSE_TYPE: {
+        PLAIN: 'plain',
+        LINKS: 'links'
     }
 };
 

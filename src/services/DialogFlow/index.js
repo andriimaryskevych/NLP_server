@@ -2,8 +2,12 @@
 
 const dialogflow = require('dialogflow');
 
+const {
+    PLAIN
+} = require('../../constants').RESPONSE_TYPE;
+
 const projectId = 'name-age-poll';
-const sessionId = 'quickstart-session-id';
+const sessionId = 'quickstart-session-id1';
 const languageCode = 'en-US';
 
 const config = {
@@ -34,10 +38,22 @@ class DialogFlow {
         try {
             const responses = await sessionClient.detectIntent(request);
 
-            console.log('Detected intent');
-
             const result = responses[0].queryResult;
-            return result.fulfillmentText;
+
+            try {
+                JSON.parse(result.fulfillmentText).type;
+
+                return result.fulfillmentText;
+            } catch (err) {
+                console.log('error parsing data');
+            }
+
+            return JSON.stringify({
+                type: PLAIN,
+                payload: {
+                    message: result.fulfillmentText
+                }
+            });
         } catch (err) {
             console.log(err);
         }

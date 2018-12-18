@@ -76,7 +76,7 @@ class AutoBazar {
                 [MARK_MARK_NAME]: filters[MARK]
             });
 
-            if (!mark.id) {
+            if (!(mark && mark.id)) {
                 throw new Error(`Mark ${filters[MARK]} not found`);
             }
 
